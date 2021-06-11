@@ -1,0 +1,29 @@
+.profile-photo {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.profile-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  * {
+    margin: 0;
+  }
+  .profile-name {
+    font-weight: 700;
+  }
+  .profile-tag {
+    font-style: italic;
+  }
+}

@@ -1,0 +1,18 @@
+.container-primary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  background-color: $primary-color;
+  color: $accent-color;
+}
+.container-secondary {
+  background-color: $accent-color;
+  color: $primary-color;
+
+  padding: 1rem;
+
+  border-radius: 5px;
+}
